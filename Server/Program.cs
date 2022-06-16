@@ -10,7 +10,6 @@ if(seed)
 }
 
 var builder = WebApplication.CreateBuilder(args);
-
 var assebly = typeof(Program).Assembly.GetName().Name;
 var defaultConnString = builder.Configuration.GetConnectionString("DefaultConnection");
 
